@@ -1,0 +1,13 @@
+.bookmarks-main-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(140px, 1fr));
+
+  height: 100%;
+}
+
+.bookmarks-title {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}

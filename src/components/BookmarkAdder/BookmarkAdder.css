@@ -1,0 +1,39 @@
+.bookmark-adder-container {
+  margin: 30px auto;
+  width: 450px;
+
+  text-align: center;
+}
+
+.bookmark-adder-container__form {
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.form__input-field {
+  width: 92%;
+  border: none;
+
+  outline: none;
+}
+
+.form__submit-button {
+  border: none;
+  height: 23px;
+  width: 23px;
+  border-radius: 11px;
+
+  cursor: pointer;
+  background-color: white;
+}
+
+.form__submit-button:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+.submit-button__icon-cross {
+  height: 10px;
+
+  transform: rotate(45deg);
+}
